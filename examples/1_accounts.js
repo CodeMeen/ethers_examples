@@ -10,5 +10,5 @@ const main = async () => {
     console.log(`\nETH Balance of ${address} --> ${ethers.utils.formatEther(balance)} ETH\n`)
 }
 
-main()
+main();
 
