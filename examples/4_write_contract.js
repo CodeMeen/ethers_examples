@@ -17,7 +17,7 @@ const ERC20_ABI = [
 const address = ''
 const contract = new ethers.Contract(address, ERC20_ABI, provider)
 
-const main = async () => {
+const main = async() => {
     const balance = await contract.balanceOf(account1)
 
     console.log(`\nReading from ${address}\n`)
